@@ -1,0 +1,113 @@
+/* COLORS */
+.color1 {color: #2b2c22;}
+.color2 {color: #445f41;}
+.color3 {color: #89582b;}
+.color4 {color: #987f53;}
+.color5 {color: #aaa483;}
+
+/* CSS Reset */
+
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  padding: 0;;
+  margin: 0;
+  font-family: 'Nunito Sans', sans-serif;
+}
+
+/* TYPOGRAPHY */
+.main-subtitle {
+  font-weight: 700;
+  text-decoration: underline;
+  font-style: italic;
+}
+
+/* LAYOUT */
+
+/*$ HEADSHOT SECTION */
+.headshot-container {
+  background-color: #445F41;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.headshot {
+  width: 20%;
+  height: 20%;
+  border-radius: 50%;
+  display: block;
+  margin: 0em auto 2em;
+  border: 2px solid #0000FF;
+}
+
+/*$ HEADER SECTION  */
+.header {
+  background-color: #445F41;
+  color: #FFFFFF;
+  text-align: center;
+}
+
+.header-title {
+  margin-top: 0;
+}
+
+.header-text {
+  margin-bottom: 0;
+  padding-bottom: 1em;
+}
+
+.break {
+  margin: 0;
+}
+
+/*$ MAIN SECTION  */
+.main-container {
+  background-color: #89582B;
+  color: #FFFFFF;
+  padding: 1em 2em;
+}
+
+.subtitle1 {
+  margin-top: 0;
+}
+
+.main-text4 {
+  margin-bottom: 0;
+}
+
+/*$ SECTION SECTION */
+.section-container {
+  background-color: #987F53;
+  color: #2b2c22;
+  padding: 1em 2em;
+}
+
+.section-title {
+  margin-top: 0;
+}
+
+/*$ LINKS SECTION */
+.section-container2 {
+  background-color: #AAA483;
+  padding-bottom: 2em;
+}
+
+.flex-list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  width: 50%;
+  margin: 0 auto;
+}
+
+.flex-list-item {
+  font-size: 1.5rem;
+}
