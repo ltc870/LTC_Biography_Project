@@ -1,0 +1,2 @@
+Please create a index(next number).html file.
+Ex: My file is index.html so the next file(s) will be index2.html, index3.html and so on!! 
